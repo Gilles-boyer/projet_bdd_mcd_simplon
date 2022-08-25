@@ -4,7 +4,7 @@ En utilisant les informations du MCD.
 
 ![mcd exercice](./assets/mcd_a_corriger.png)
 
-Nous devions procéder aux corrections qui nous semblent nécessaires (avec une justification de nos chois). Puis créer la base de données sous MySQL.
+Nous devions procéder aux corrections qui nous semblent nécessaires (avec une justification de nos choix). Puis créer la base de données sous MySQL.
 
 ## Livrables : 
 * Un fichier d'import de la base de données dans un repo git. 
