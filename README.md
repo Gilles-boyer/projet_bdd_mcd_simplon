@@ -41,6 +41,12 @@ J'ai noté des incohérences dans le placement et le choix de cardinalité :
 - un personnage est contenu dans un ou plusieurs comics
 - un comics contient un ou plusieurs personnages
 
+- un Scénariste peut écrire un ou plusieurs comics
+- Un Comics est écrit par un et un seul Scénariste
+
+- Un Déssinateur peut dessiner un ou plusieurs comics
+- Un Comics est déssiné par un et un seul Déssinateur
+
 ### Modification d'entité
 
 - En vue d'une évolution de la BDD est acceuillir des éléments plus précis sur des propriétés (exemple : biographie, ...), j'ai créé deux nouvelles entités :
@@ -113,5 +119,3 @@ exemple table personnage : attribit = "id" => préfixe = pers_id
 ##### Reconnaitre l'attribut type clé étrangère :
 
 Lorsqu’une clé étrangère est utilisée (traduction anglaise : “Foreign Key”), il est pratique de l’indiquer dans le nom de la colonne. La colonne peut contenir le préfixe, puis “fk” pour Foreign Key, puis le nom de la table et enfin se terminer par “id”. Ainsi, une colonne pourrait s’intituler “wp_fk_user_id” (cf. préfixe “wp”, foreign key sur la table utilisateur de la colonne “id”).
-
-##### Tailles et type des données des colonnes : 
